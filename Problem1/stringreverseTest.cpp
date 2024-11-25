@@ -5,7 +5,7 @@ using namespace std;
 int main(){
     string str, reversed;
     str = "bayu putra";
-    expectedResult = "artup uyab";
+    string expectedResult = "artup uyab";
 
     for(int i = str.length() - 1; i >= 0; i--){
         reversed += str[i];
